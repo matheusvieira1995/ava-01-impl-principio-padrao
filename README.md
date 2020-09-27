@@ -1,6 +1,6 @@
 # Avaliação #01 Princípio e Padrão (implementação)
 
-Classroom: <http://about:blank>
+Classroom: <https://classroom.github.com/a/Xn-4rYf_>
 
 Considere as classes `Produto` e `Carrinho.
 

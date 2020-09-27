@@ -1,19 +1,18 @@
-# Template
+# Avaliação #01 Princípio e Padrão (implementação)
 
-Um _template_ é um modelo para novos projetos, para não iniciar do zero e ter pelo menos uma estrutura onde se apoiar.
+Classroom: <http://about:blank>
 
-Antes de começar a desenvolver com este _template_ é necessário ter instalado o [Node.js](https://nodejs.org/en/download/), [Git](https://git-scm.com/download/win)  e o [Visual Studio Code](https://code.visualstudio.com/).
+Considere as classes `Produto` e `Carrinho.
 
-Usando o Linux, é necessário baixar os pacotes `.deb` nos sites (clicar nos _links_ acima) e prosseguir a instalação. O Git pode ser instalado com o comando `sudo apt-get install git`.
+Os produtos são adicionados ao carrinho, um ou dois por vez (ver método `adiciona`).
 
-## Configurações do Visual Studio Code
+Observe como o `main` faz a adição dos produtos ao carrinho.
 
-As configurações que uso no Visual Studio Code estão no arquivo `./.vscode/settings.json`, sintam-se a vontade para usá-las total ou parcialmente no seu vscode. Eu recomendo pelo menos o `wrap` e as _exclusions_ que melhoram a performance nos projetos Node.js.
+Agora:
 
-## Node.js
+1. investige sobre o _Zero One Infinity Rule_
+2. procure por uma violação desse princípio no código
+3. aplique o padrão de _variadic function_ e _rest parameters_ para resolver
+4. altere o `main` usando a nova implementação
 
-A partir da linha de comando, execute `npm install`, isso vai gerar o diretório `node_modules`, que **nunca deve ser copiado para pendrives ou transferido por e-mail**, já que só depende do arquivo `package.json` para gerar novamente com o comando citado.
-
-## Rodando
-
-Para _rodar_ o projeto execute o comando `npm start`.
+Obs.: a nova implementação não deve quebrar a antiga!

@@ -2,7 +2,7 @@
 
 Classroom: <https://classroom.github.com/a/Xn-4rYf_>
 
-Considere as classes `Produto` e `Carrinho.
+Considere as classes `Produto` e `Carrinho`.
 
 Os produtos são adicionados ao carrinho, um ou dois por vez (ver método `adiciona`).
 
